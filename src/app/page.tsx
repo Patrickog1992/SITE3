@@ -14,7 +14,7 @@ export default function Home() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowButton(true);
-    }, 15000); // 15 segundos
+    }, 1380000); // 23 minutos
 
     return () => clearTimeout(timer); // Limpa o timer se o componente for desmontado
   }, []);
@@ -50,7 +50,7 @@ export default function Home() {
           )}
         </div>
 
-        <div className="my-8">
+        <div className="my-8 pt-8">
           <Image
             src="https://i.imgur.com/Lg34LJp.png"
             alt="Métodos de pagamento"
