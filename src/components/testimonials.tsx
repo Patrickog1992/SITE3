@@ -31,7 +31,7 @@ const Testimonials = () => {
   return (
     <section className="py-12">
       <h2 className="text-3xl font-bold text-center mb-8">
-        Quem já usou, aprova!
+        Comentários
       </h2>
       <div className="flex flex-col gap-6">
         {testimonials.map((item, index) => (
