@@ -3,7 +3,7 @@ import VideoPlayer from '@/components/video-player';
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-background">
-      <header className="bg-primary text-primary-foreground sticky top-0 z-50 shadow-md">
+      <header className="bg-primary text-primary-foreground shadow-md">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative flex h-16 items-center justify-center">
             <div className="absolute left-0">
