@@ -1,4 +1,5 @@
 import AttentionMessage from '@/components/attention-message';
+import Testimonials from '@/components/testimonials';
 import VideoPlayer from '@/components/video-player';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
@@ -39,6 +40,7 @@ export default function Home() {
             data-ai-hint="payment methods"
           />
         </div>
+        <Testimonials />
       </main>
     </div>
   );
