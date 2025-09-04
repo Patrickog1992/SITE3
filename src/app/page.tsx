@@ -21,7 +21,7 @@ export default function Home() {
     (window as any).playerConfiguration = {
       timeMarkers: [
         {
-          time: 23 * 60, // 23 minutes
+          time: 5, // 5 seconds
           callback: 'showCheckoutButton'
         }
       ]
