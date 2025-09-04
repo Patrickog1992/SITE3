@@ -26,10 +26,8 @@ export default function Home() {
       <main className="flex-grow container mx-auto w-full max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
         <VideoPlayer />
         
-        {/* O container do botão agora tem uma altura fixa para evitar que o layout mude */}
-        <div className="my-8 text-center h-[100px] flex items-center justify-center">
-            {/* O Link e o Botão começam escondidos com a classe 'hidden' e um id para serem encontrados pelo script */}
-            <Link href="https://pay.kirvano.com/5b1bd10e-ce3e-4c9b-a202-3bdfcfd4d4d7" id="checkout-button-container" className="hidden">
+        <div className="my-8 text-center">
+            <Link href="https://pay.kirvano.com/5b1bd10e-ce3e-4c9b-a202-3bdfcfd4d4d7">
               <Button
                 size="lg"
                 className="bg-green-600 hover:bg-green-700 text-white font-bold text-lg sm:text-2xl py-6 px-8 sm:py-8 sm:px-12 rounded-lg shadow-lg animate-pulse w-full sm:w-auto"
