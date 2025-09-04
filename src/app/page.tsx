@@ -14,7 +14,7 @@ export default function Home() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowButton(true);
-    }, 10000); // 10 segundos
+    }, 15000); // 15 segundos
 
     return () => clearTimeout(timer); // Limpa o timer se o componente for desmontado
   }, []);
