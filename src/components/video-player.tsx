@@ -11,13 +11,6 @@ const VideoPlayer = () => {
         return;
     }
 
-    // Set the configuration on the window object BEFORE loading the script.
-    (window as any).playerConfiguration = {
-        "id": "68b8d76db11ec324f44889a2",
-        "show_button_after": 10, // Show button after 10 seconds
-        "button_id": "checkout-button-container" // ID of the button container
-    };
-
     const script = document.createElement("script");
     script.src = scriptUrl;
     script.async = true;

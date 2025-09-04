@@ -6,8 +6,19 @@ import VideoPlayer from '@/components/video-player';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useEffect, useState } from 'react';
 
 export default function Home() {
+  const [showButton, setShowButton] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowButton(true);
+    }, 10000); // 10 segundos
+
+    return () => clearTimeout(timer); // Limpa o timer se o componente for desmontado
+  }, []);
+
   return (
     <div className="flex flex-col min-h-screen bg-background">
       <header className="bg-red-600 text-destructive-foreground shadow-md">
@@ -26,7 +37,8 @@ export default function Home() {
       <main className="flex-grow container mx-auto w-full max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
         <VideoPlayer />
         
-        <div id="checkout-button-container" className="my-8 text-center" style={{ display: 'none' }}>
+        <div className="my-8 text-center">
+          {showButton && (
             <Link href="https://pay.kirvano.com/5b1bd10e-ce3e-4c9b-a202-3bdfcfd4d4d7">
               <Button
                 size="lg"
@@ -35,6 +47,7 @@ export default function Home() {
                 QUERO O TRATAMENTO COMPLETO
               </Button>
             </Link>
+          )}
         </div>
 
         <div className="my-8">
