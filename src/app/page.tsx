@@ -1,5 +1,7 @@
 import AttentionMessage from '@/components/attention-message';
 import VideoPlayer from '@/components/video-player';
+import { Button } from '@/components/ui/button';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -19,6 +21,24 @@ export default function Home() {
       <AttentionMessage />
       <main className="flex-grow container mx-auto w-full max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
         <VideoPlayer />
+        <div className="my-8 text-center">
+          <Button
+            size="lg"
+            className="bg-green-600 hover:bg-green-700 text-white font-bold text-2xl py-8 px-12 rounded-lg shadow-lg animate-pulse"
+          >
+            QUERO O TRATAMENTO COMPLETO
+          </Button>
+        </div>
+        <div className="my-8">
+          <Image
+            src="https://i.imgur.com/Lg34LJp.png"
+            alt="Métodos de pagamento"
+            width={640}
+            height={95}
+            className="mx-auto"
+            data-ai-hint="payment methods"
+          />
+        </div>
       </main>
     </div>
   );
