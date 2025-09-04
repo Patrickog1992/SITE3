@@ -1,9 +1,10 @@
+import AttentionMessage from '@/components/attention-message';
 import VideoPlayer from '@/components/video-player';
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen bg-background">
-      <header className="bg-destructive text-destructive-foreground shadow-md">
+      <header className="bg-red-600 text-destructive-foreground shadow-md">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="relative flex h-16 items-center justify-center">
             <div className="absolute left-0">
@@ -15,6 +16,7 @@ export default function Home() {
           </div>
         </div>
       </header>
+      <AttentionMessage />
       <main className="flex-grow container mx-auto w-full max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
         <VideoPlayer />
       </main>
