@@ -1,5 +1,5 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { ThumbsUp } from "lucide-react";
+import { ThumbsUp, Heart } from "lucide-react";
 
 const testimonials = [
   {
@@ -75,6 +75,7 @@ const Testimonials = () => {
                     <button className="hover:underline">Responder</button>
                     <div className="flex items-center gap-1 ml-auto">
                         <ThumbsUp size={14} className="text-blue-600" />
+                        <Heart size={14} className="text-red-600 fill-red-600" />
                         <span>{item.likes}</span>
                     </div>
                 </div>
