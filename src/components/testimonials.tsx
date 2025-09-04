@@ -32,14 +32,14 @@ const testimonials = [
   },
   {
     name: "Roberto A.",
-    avatar: "https://i.imgur.com/GJZpDHa.png",
+    avatar: "https://i.imgur.com/bHTJFVo.png",
     testimonial: "O melhor investimento que fiz para minha saúde. Simples, prático e com resultados que eu não esperava. Adeus, fungos!",
     aiHint: "man smiling portrait",
     likes: 65,
   },
   {
     name: "Sandra F.",
-    avatar: "https://i.imgur.com/bHTJFVo.png",
+    avatar: "https://i.imgur.com/GJZpDHa.png",
     testimonial: "Resultados visíveis em poucas semanas. Minha autoestima melhorou muito. Recomendo a todas as minhas amigas que passam pelo mesmo problema.",
     aiHint: "woman portrait happy",
     likes: 82,
