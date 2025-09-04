@@ -26,7 +26,7 @@ export default function Home() {
       <main className="flex-grow container mx-auto w-full max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
         <VideoPlayer />
         
-        <div id="checkout-button-container" className="my-8 text-center">
+        <div id="checkout-button-container" className="my-8 text-center" style={{ display: 'none' }}>
             <Link href="https://pay.kirvano.com/5b1bd10e-ce3e-4c9b-a202-3bdfcfd4d4d7">
               <Button
                 size="lg"
