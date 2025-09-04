@@ -49,9 +49,14 @@ const testimonials = [
 const Testimonials = () => {
   return (
     <section className="py-12">
-      <h2 className="text-3xl font-bold text-center mb-8">
-        Comentários
-      </h2>
+      <div className="mb-6">
+        <h2 className="text-2xl font-bold">
+          6 Comentários
+        </h2>
+        <p className="text-sm text-gray-600">
+          Mostrando 6 comentários
+        </p>
+      </div>
       <div className="flex flex-col gap-6">
         {testimonials.map((item, index) => (
           <div key={index} className="flex items-start gap-4 p-4 bg-gray-100 rounded-lg">
