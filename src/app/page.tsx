@@ -3,6 +3,7 @@ import Testimonials from '@/components/testimonials';
 import VideoPlayer from '@/components/video-player';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -23,12 +24,14 @@ export default function Home() {
       <main className="flex-grow container mx-auto w-full max-w-4xl px-4 py-8 sm:px-6 lg:px-8">
         <VideoPlayer />
         <div className="my-8 text-center">
-          <Button
-            size="lg"
-            className="bg-green-600 hover:bg-green-700 text-white font-bold text-2xl py-8 px-12 rounded-lg shadow-lg animate-pulse"
-          >
-            QUERO O TRATAMENTO COMPLETO
-          </Button>
+          <Link href="https://pay.kirvano.com/5b1bd10e-ce3e-4c9b-a202-3bdfcfd4d4d7">
+            <Button
+              size="lg"
+              className="bg-green-600 hover:bg-green-700 text-white font-bold text-2xl py-8 px-12 rounded-lg shadow-lg animate-pulse"
+            >
+              QUERO O TRATAMENTO COMPLETO
+            </Button>
+          </Link>
         </div>
         <div className="my-8">
           <Image
