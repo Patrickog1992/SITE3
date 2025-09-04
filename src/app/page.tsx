@@ -27,7 +27,7 @@ export default function Home() {
           <Link href="https://pay.kirvano.com/5b1bd10e-ce3e-4c9b-a202-3bdfcfd4d4d7">
             <Button
               size="lg"
-              className="bg-green-600 hover:bg-green-700 text-white font-bold text-2xl py-8 px-12 rounded-lg shadow-lg animate-pulse"
+              className="bg-green-600 hover:bg-green-700 text-white font-bold text-lg sm:text-2xl py-6 px-8 sm:py-8 sm:px-12 rounded-lg shadow-lg animate-pulse w-full sm:w-auto"
             >
               QUERO O TRATAMENTO COMPLETO
             </Button>
