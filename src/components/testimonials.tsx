@@ -18,7 +18,7 @@ const testimonials = [
   },
   {
     name: "Ana C.",
-    avatar: "https://i.imgur.com/50wYOfx.jpeg",
+    avatar: "https://i.imgur.com/i7beDqx.jpeg",
     testimonial: "Estou muito feliz com o resultado. É um alívio poder usar sandálias sem sentir vergonha das minhas unhas. O tratamento é simples e eficaz.",
     aiHint: "woman smiling",
     likes: 154,
@@ -31,18 +31,18 @@ const testimonials = [
     likes: 77,
   },
   {
-    name: "Roberto A.",
-    avatar: "https://i.imgur.com/bHTJFVo.png",
-    testimonial: "O melhor investimento que fiz para minha saúde. Simples, prático e com resultados que eu não esperava. Adeus, fungos!",
-    aiHint: "man smiling portrait",
-    likes: 65,
-  },
-  {
     name: "Sandra F.",
     avatar: "https://i.imgur.com/GJZpDHa.png",
     testimonial: "Resultados visíveis em poucas semanas. Minha autoestima melhorou muito. Recomendo a todas as minhas amigas que passam pelo mesmo problema.",
     aiHint: "woman portrait happy",
     likes: 82,
+  },
+  {
+    name: "Roberto A.",
+    avatar: "https://i.imgur.com/bHTJFVo.png",
+    testimonial: "O melhor investimento que fiz para minha saúde. Simples, prático e com resultados que eu não esperava. Adeus, fungos!",
+    aiHint: "man smiling portrait",
+    likes: 65,
   },
 ];
 
